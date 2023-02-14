@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GOLOLCHA DETERGENT</title>
+    <script>
+    function Choose(){
+      var lan = prompt("Choose The Language ፦ For English write 1 , For Amharic write 2 , For Afaan Oromo write 3.","")
+      if (lan == 1){
+        window.location="Eng_GoDe.html"
+      }
+      else if (lan == 2){
+        window.location="Amh_GoDe.html"
+      }
+      else if (lan == 3){
+        window.location="Oro_GoDe.html"
+      }
+      else if (lan == 123){alert("This Web Site Are Produce By Yohanes Debebe. [And For Language Translate Gzachew Ytelelu.] Contact Me By ፦ Tel: +251930531637 & Email: yopeman318@gmail.com")
+  }
+  else if (lan == null){
+    Choose()
+  }
+}
+    Choose()
+    
+    function Eng(){window.location="Eng_GoDe.html"}
+    function Amh(){window.location="Amh_GoDe.html"}
+    function Oro(){window.location="Oro_GoDe.html"}
+    </script>
+    <style>
+      body{
+        background-color: black;
+      }
+      .st{
+        background-color: green;
+        color: black;
+        width: 100%;
+        height: 30%;
+        border: 2px solid white;
+      }
+       .nd{
+        background-color: yellow;
+        color: black;
+        width: 100%;
+        height: 30%;
+        border: 2px solid white;
+      }
+       .rd{
+        background-color: red;
+        color: black;
+        width: 100%;
+        height: 30%;
+        border: 2px solid white;
+      }
+      .all{
+        border: 5px solid blue;
+      }
+      h3{
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <center><h3 onclick="Choose()"><b>Choose The Language ፦</h3>
+    <div class="all">
+      <div class="st" onclick="Eng()">
+      <h1>English Language</h1>
+    </div>
+    <div class="nd" onclick="Amh()">
+      <h1>አማርኛ ቋንቋ</h1>
+    </div>
+    <div class="rd" onclick="Oro()">
+      <h1>Afaan Oromo</h1>
+    </div>
+    </div>
+  </body>
+</html>
